@@ -1,0 +1,459 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-03T01:00:00.000Z",
+  "dataAsOf": "2026-11-02",
+  "revenueColumns": true,
+  "total": 12,
+  "categories": [
+    {
+      "key": "ai-tools",
+      "en": "AI tools",
+      "zh": "AI 工具",
+      "count": 3
+    },
+    {
+      "key": "developer-tools",
+      "en": "Developer tools",
+      "zh": "开发者工具",
+      "count": 3
+    },
+    {
+      "key": "marketing",
+      "en": "Marketing",
+      "zh": "营销",
+      "count": 2
+    },
+    {
+      "key": "productivity",
+      "en": "Productivity",
+      "zh": "效率工具",
+      "count": 3
+    }
+  ],
+  "startups": [
+    {
+      "slug": "lumenforge",
+      "name": "Lumenforge",
+      "domain": "lumenforge.example.com",
+      "reportPath": "/project/lumenforge",
+      "logoPath": "/media/pipeline/media/00/fixture-lumenforge.png",
+      "category": {
+        "key": "ai-tools",
+        "en": "AI tools",
+        "zh": "AI 工具"
+      },
+      "mrrBand": "gte100k",
+      "growth": "up",
+      "channels": [
+        {
+          "en": "SEO",
+          "zh": "SEO",
+          "icons": [
+            "seo"
+          ]
+        },
+        {
+          "en": "Facebook ads",
+          "zh": "Facebook 广告",
+          "icons": [
+            "facebook"
+          ]
+        }
+      ],
+      "productHunt": true,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_ana",
+        "followers": 12000,
+        "role": "founder"
+      },
+      "question": {
+        "en": "How did a two-person team turn a free tool into its main source of signups?",
+        "zh": "一个两人团队如何把免费工具变成主要的注册来源？"
+      },
+      "playsCount": 7,
+      "addedAt": "2026-09-14"
+    },
+    {
+      "slug": "parcel-pine",
+      "name": "Parcel | Pine",
+      "domain": "parcel-pine.example.com",
+      "reportPath": "/project/parcel-pine",
+      "logoPath": "/media/pipeline/media/00/fixture-parcel-pine.png",
+      "category": {
+        "key": "productivity",
+        "en": "Productivity",
+        "zh": "效率工具"
+      },
+      "mrrBand": "50k-100k",
+      "growth": "surging",
+      "channels": [
+        {
+          "en": "Newsletter sponsorships",
+          "zh": "Newsletter 赞助",
+          "icons": [
+            "newsletter"
+          ]
+        }
+      ],
+      "productHunt": false,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_parcelpine",
+        "followers": 530,
+        "role": "official"
+      },
+      "question": {
+        "en": "Why did newsletter sponsorships beat paid search for a niche product?",
+        "zh": "为什么对小众产品来说，Newsletter 赞助比付费搜索更有效？"
+      },
+      "playsCount": 5,
+      "addedAt": "2026-10-27"
+    },
+    {
+      "slug": "snapgrid",
+      "name": "Snapgrid",
+      "domain": "snapgrid.example.com",
+      "reportPath": "/project/snapgrid",
+      "logoPath": "/media/pipeline/media/00/fixture-snapgrid.png",
+      "category": {
+        "key": "developer-tools",
+        "en": "Developer tools",
+        "zh": "开发者工具"
+      },
+      "mrrBand": "30k-50k",
+      "growth": "surging",
+      "channels": [
+        {
+          "en": "GitHub",
+          "zh": "GitHub",
+          "icons": [
+            "github"
+          ]
+        },
+        {
+          "en": "X (Twitter)",
+          "zh": "X（推特）",
+          "icons": [
+            "x"
+          ]
+        }
+      ],
+      "productHunt": true,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_ben",
+        "followers": 1200000,
+        "role": "founder"
+      },
+      "question": null,
+      "playsCount": 3,
+      "addedAt": "2026-10-20"
+    },
+    {
+      "slug": "tidebook",
+      "name": "Tidebook",
+      "domain": "tidebook.example.com",
+      "reportPath": "/project/tidebook",
+      "logoPath": "/media/pipeline/media/00/fixture-tidebook.png",
+      "category": {
+        "key": "ai-tools",
+        "en": "AI tools",
+        "zh": "AI 工具"
+      },
+      "mrrBand": "10k-30k",
+      "growth": "flat",
+      "channels": [],
+      "productHunt": true,
+      "builder": null,
+      "question": {
+        "en": "Why does one Product Hunt launch keep bringing in users months later?",
+        "zh": "为什么一次 Product Hunt 发布在几个月后仍在带来用户？"
+      },
+      "playsCount": null,
+      "addedAt": "2026-08-02"
+    },
+    {
+      "slug": "fernlog",
+      "name": "Fernlog",
+      "domain": "fernlog.example.com",
+      "reportPath": "/project/fernlog",
+      "logoPath": "/media/pipeline/media/00/fixture-fernlog.png",
+      "category": {
+        "key": "marketing",
+        "en": "Marketing",
+        "zh": "营销"
+      },
+      "mrrBand": "10k-30k",
+      "growth": "down",
+      "channels": [
+        {
+          "en": "Affiliate program",
+          "zh": "联盟计划",
+          "icons": [
+            "affiliate"
+          ]
+        }
+      ],
+      "productHunt": false,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_cleo",
+        "followers": null,
+        "role": "founder"
+      },
+      "question": {
+        "en": "How does an affiliate program work for a tool with a small audience?",
+        "zh": "受众不大的工具，联盟计划怎么做？"
+      },
+      "playsCount": 1,
+      "addedAt": "2026-10-30"
+    },
+    {
+      "slug": "orbitnote",
+      "name": "Orbitnote",
+      "domain": "orbitnote.example.com",
+      "reportPath": "/project/orbitnote",
+      "logoPath": "/media/pipeline/media/00/fixture-orbitnote.png",
+      "category": {
+        "key": "productivity",
+        "en": "Productivity",
+        "zh": "效率工具"
+      },
+      "mrrBand": "lt10k",
+      "growth": "up",
+      "channels": [
+        {
+          "en": "Reddit",
+          "zh": "Reddit",
+          "icons": [
+            "reddit"
+          ]
+        },
+        {
+          "en": "YouTube",
+          "zh": "YouTube",
+          "icons": [
+            "youtube"
+          ]
+        }
+      ],
+      "productHunt": false,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_dev",
+        "followers": 4800,
+        "role": "founder"
+      },
+      "question": {
+        "en": "Which Reddit communities sent the first paying customers?",
+        "zh": "最早的付费用户来自哪些 Reddit 社区？"
+      },
+      "playsCount": 6,
+      "addedAt": "2026-11-01"
+    },
+    {
+      "slug": "crumbly",
+      "name": "Crumbly",
+      "domain": null,
+      "reportPath": "/project/crumbly",
+      "logoPath": null,
+      "category": {
+        "key": "marketing",
+        "en": "Marketing",
+        "zh": "营销"
+      },
+      "mrrBand": "lt10k",
+      "growth": null,
+      "channels": [
+        {
+          "en": "Cold email",
+          "zh": "冷邮件",
+          "icons": [
+            "email"
+          ]
+        }
+      ],
+      "productHunt": true,
+      "builder": null,
+      "question": null,
+      "playsCount": null,
+      "addedAt": null
+    },
+    {
+      "slug": "quillmint",
+      "name": "Quillmint",
+      "domain": "quillmint.example.com",
+      "reportPath": "/project/quillmint",
+      "logoPath": "/media/pipeline/media/00/fixture-quillmint.png",
+      "category": {
+        "key": "ai-tools",
+        "en": "AI tools",
+        "zh": "AI 工具"
+      },
+      "mrrBand": "lt10k",
+      "growth": "surging",
+      "channels": [
+        {
+          "en": "X (Twitter)",
+          "zh": "X（推特）",
+          "icons": [
+            "x"
+          ]
+        }
+      ],
+      "productHunt": false,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_fay",
+        "followers": 95,
+        "role": "founder"
+      },
+      "question": {
+        "en": "How did a side project grow without any paid ads?",
+        "zh": "一个副业项目如何在不投广告的情况下增长？"
+      },
+      "playsCount": 4,
+      "addedAt": "2026-10-30"
+    },
+    {
+      "slug": "driftdesk",
+      "name": "Driftdesk",
+      "domain": "driftdesk.example.com",
+      "reportPath": "/project/driftdesk",
+      "logoPath": "/media/pipeline/media/00/fixture-driftdesk.png",
+      "category": null,
+      "mrrBand": null,
+      "growth": null,
+      "channels": [
+        {
+          "en": "SEO",
+          "zh": "SEO",
+          "icons": [
+            "seo"
+          ]
+        }
+      ],
+      "productHunt": false,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_eli",
+        "followers": 870,
+        "role": "founder"
+      },
+      "question": {
+        "en": "What does a content-led SEO plan look like for a desk-booking tool?",
+        "zh": "一个工位预订工具的内容型 SEO 计划是什么样的？"
+      },
+      "playsCount": 4,
+      "addedAt": "2026-07-15"
+    },
+    {
+      "slug": "hollowtone",
+      "name": "Hollowtone",
+      "domain": "hollowtone.example.com",
+      "reportPath": "/project/hollowtone",
+      "logoPath": "/media/pipeline/media/00/fixture-hollowtone.png",
+      "category": {
+        "key": "developer-tools",
+        "en": "Developer tools",
+        "zh": "开发者工具"
+      },
+      "mrrBand": null,
+      "growth": null,
+      "channels": [
+        {
+          "en": "GitHub",
+          "zh": "GitHub",
+          "icons": [
+            "github"
+          ]
+        }
+      ],
+      "productHunt": true,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_gus",
+        "followers": 56000,
+        "role": "official"
+      },
+      "question": {
+        "en": "How do open-source users turn into paying teams?",
+        "zh": "开源用户是怎么变成付费团队的？"
+      },
+      "playsCount": 8,
+      "addedAt": "2026-06-03"
+    },
+    {
+      "slug": "mapleqa",
+      "name": "Mapleqa",
+      "domain": "mapleqa.example.com",
+      "reportPath": "/project/mapleqa",
+      "logoPath": "/media/pipeline/media/00/fixture-mapleqa.png",
+      "category": {
+        "key": "developer-tools",
+        "en": "Developer tools",
+        "zh": "开发者工具"
+      },
+      "mrrBand": null,
+      "growth": null,
+      "channels": [
+        {
+          "en": "SEO",
+          "zh": "SEO",
+          "icons": [
+            "seo"
+          ]
+        },
+        {
+          "en": "YouTube",
+          "zh": "YouTube",
+          "icons": [
+            "youtube"
+          ]
+        }
+      ],
+      "productHunt": false,
+      "builder": null,
+      "question": null,
+      "playsCount": 2,
+      "addedAt": "2026-10-05"
+    },
+    {
+      "slug": "pixelbarn",
+      "name": "Pixelbarn",
+      "domain": "pixelbarn.example.com",
+      "reportPath": "/project/pixelbarn",
+      "logoPath": "/media/pipeline/media/00/fixture-pixelbarn.png",
+      "category": {
+        "key": "productivity",
+        "en": "Productivity",
+        "zh": "效率工具"
+      },
+      "mrrBand": null,
+      "growth": null,
+      "channels": [
+        {
+          "en": "Template gallery",
+          "zh": "模板库",
+          "icons": [
+            "templates"
+          ]
+        }
+      ],
+      "productHunt": true,
+      "builder": {
+        "platform": "x",
+        "handle": "fixture_hana",
+        "followers": 2300,
+        "role": "founder"
+      },
+      "question": {
+        "en": "Why did a template gallery become the biggest growth channel?",
+        "zh": "为什么模板库成了最大的增长渠道？"
+      },
+      "playsCount": 5,
+      "addedAt": "2026-09-28"
+    }
+  ]
+}

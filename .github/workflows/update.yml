@@ -1,0 +1,54 @@
+name: Update tables
+
+on:
+  schedule:
+    - cron: '0 1 * * 1' # Mondays 01:00 UTC = 09:00 Asia/Shanghai
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: update-tables
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+
+      - name: Test the renderer
+        run: node --test
+
+      # Both values are secrets, so the logs mask them: a variable would
+      # print the export URL in every public run log. Without them this step
+      # prints a warning and writes nothing, so the run stays green until the
+      # export is set up.
+      - name: Render the tables from the BizPeel export
+        id: update
+        env:
+          BIZPEEL_EXPORT_URL: ${{ secrets.BIZPEEL_EXPORT_URL }}
+          BIZPEEL_EXPORT_TOKEN: ${{ secrets.BIZPEEL_EXPORT_TOKEN }}
+        run: node scripts/update.mjs
+
+      - name: Commit and push changed tables
+        env:
+          DATA_AS_OF: ${{ steps.update.outputs.data_as_of }}
+          ROWS: ${{ steps.update.outputs.rows }}
+        run: |
+          git add -A -- '*.md'
+          if git diff --cached --quiet; then
+            echo "Tables unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "data: update ${DATA_AS_OF} (${ROWS} startups)"
+          git push

@@ -1,0 +1,19 @@
+# Security
+
+5 startups in this category, from [How Profitable Startups Grow](../README.md), updated weekly
+
+**English** · [简体中文](security.zh-CN.md)
+
+[Filter and sort all 5 Security startups on BizPeel →](https://bizpeel.com/library?category=security&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security)
+
+| # | Startup | MRR | Growth | Builder | How it grows? |
+| --: | --- | --- | :-: | --- | --- |
+| 1 | <img src="https://bizpeel.com/media/59/594704f155348a641add95f35acfbf6a36750f7f780a00a0c4dd82866dc999dc.png" width="16" height="16" alt=""> [goundetected](https://bizpeel.com/project/goundetected-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) | &lt;&nbsp;$10K | ▲▲ | [@kovalmyroslav](https://x.com/kovalmyroslav) · 21 | What did GoUndetected, a multi-account browser, do on its website, its pricing, in search and on social accounts? → [See 8 growth plays](https://bizpeel.com/project/goundetected-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) |
+| 2 | <img src="https://bizpeel.com/media/b4/b46e388e0039110787f08a0a9cae8b795623c3a4df3be6321ba28851ba791a87.png" width="16" height="16" alt=""> [isMalicious](https://bizpeel.com/project/ismalicious?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) | &lt;&nbsp;$10K | ▼ | [@hexablob](https://x.com/hexablob) | isMalicious sells threat intel that plugs into SIEMs and AI assistants. Where do the security teams using it first come across it? → [See 7 growth plays](https://bizpeel.com/project/ismalicious?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) |
+| 3 | <img src="https://bizpeel.com/media/e3/e33cc89cb0acee7cb843251803880ccc03aad1e66d0491b322a33d6c3e15ff9c.png" width="16" height="16" alt=""> [securenow.ai](https://bizpeel.com/project/securenow-ai?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) | &lt;&nbsp;$10K | → | [@codehacker](https://x.com/codehacker) · 140 | What exactly did SecureNow do on its website, on X, on YouTube and in Google search? → [See 7 growth plays](https://bizpeel.com/project/securenow-ai?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) |
+| 4 | <img src="https://bizpeel.com/media/07/07d09f986afdc7e9cf9688ac7169dab5bf96ba55d46139344be2ce1bbc3da955.jpg" width="16" height="16" alt=""> [Stella Proxies](https://bizpeel.com/project/stella-proxies?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) | &lt;&nbsp;$10K | → | [@StellaProxies](https://x.com/StellaProxies) · 8.8K | What happened to its revenue in 2026? → [See 7 growth plays](https://bizpeel.com/project/stella-proxies?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) |
+| 5 | <img src="https://bizpeel.com/media/e6/e62dfc23571c42cf007180747dd032eabed296bdac6fb48b08759780143e75f6.jpg" width="16" height="16" alt=""> [HypeProxies](https://bizpeel.com/project/hypeproxies?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) | — | — | [@basedgunnar](https://x.com/basedgunnar) · 1.7K | How did revenue grow when visits did not? → [See 8 growth plays](https://bizpeel.com/project/hypeproxies?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-security) |
+
+[How to read the table](../README.md#how-to-read-the-tables) · [All categories](../README.md#by-category)
+
+Data as of 2026-11-04. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).
