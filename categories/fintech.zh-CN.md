@@ -2,13 +2,13 @@
 
 本分类下 18 家创业公司，来自 [How Profitable Startups Grow](../README.zh-CN.md)，每周更新
 
-[English](fintech.md) · **简体中文**
+[English](fintech.md) · **简体中文** · [繁體中文](fintech.zh-TW.md)
 
 [在 BizPeel 上筛选、排序全部 18 家「金融科技」创业公司 →](https://bizpeel.com/zh/library?category=fintech&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech)
 
 | # | 创&#8288;业&#8288;公&#8288;司 | MRR | 增&#8288;长 | 创&#8288;始&#8288;人 | 如&#8288;何&#8288;获&#8288;客&#8288;增&#8288;长？ |
 | --: | --- | --- | :-: | --- | --- |
-| 1 | <img src="https://bizpeel.com/media/64/641843d6621d590ef6ba5e0a8999dba45d822e82861622edcfab7deae1a96bcc.jpg" width="16" height="16" alt=""> [Khosmos](https://bizpeel.com/zh/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | $10K–&#8288;30K | → | — | 一个没有免费版的小工具，靠什么拉新？ → [查看 7 个增长打法](https://bizpeel.com/zh/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
+| 1 | <img src="https://bizpeel.com/media/64/641843d6621d590ef6ba5e0a8999dba45d822e82861622edcfab7deae1a96bcc.jpg" width="16" height="16" alt=""> [Khosmos](https://bizpeel.com/zh/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | $10K–&#8288;30K | ▲ | — | 一个没有免费版的小工具，靠什么拉新？ → [查看 7 个增长打法](https://bizpeel.com/zh/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
 | 2 | <img src="https://bizpeel.com/media/ae/ae396063da67ee9c953fa5e8dbb863127f89c53a493d58c456e78c1150dd223c.png" width="16" height="16" alt=""> [AltIndex](https://bizpeel.com/zh/project/altindex-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | $10K–&#8288;30K | → | [@\_quincyrm](https://x.com/_quincyrm) · 64 | 哪类页面排进了 Google 前 5？ → [查看 7 个增长打法](https://bizpeel.com/zh/project/altindex-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
 | 3 | <img src="https://bizpeel.com/media/e9/e9a7fc97fd6ee2336a645d056f6f4c59ea7d8e2cc2414be29cf814af1e42f8cc.png" width="16" height="16" alt=""> [Heron Copier](https://bizpeel.com/zh/project/heron-copier?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | &lt;&nbsp;$10K | → | [@agazdev](https://x.com/agazdev) · 32 | 收入为什么掉头？ → [查看 7 个增长打法](https://bizpeel.com/zh/project/heron-copier?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
 | 4 | <img src="https://bizpeel.com/media/18/1872ea9d4ebe6c252f98ee7dc00c23456cee3a088329169edb9d219f51608dd9.png" width="16" height="16" alt=""> [BreadSync](https://bizpeel.com/zh/project/breadsync?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | &lt;&nbsp;$10K | ▲▲ | [@breadsync](https://x.com/breadsync) · 47 | 为什么新用户注册后必须先学策略才能激活？ → [查看 4 个增长打法](https://bizpeel.com/zh/project/breadsync?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
@@ -29,4 +29,4 @@
 
 [怎么读这张表](../README.zh-CN.md#怎么读这些表) · [全部分类](../README.zh-CN.md#按分类)
 
-数据截至 2026-11-04。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。
+数据截至 2026-11-05。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。

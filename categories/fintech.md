@@ -2,13 +2,13 @@
 
 18 startups in this category, from [How Profitable Startups Grow](../README.md), updated weekly
 
-**English** · [简体中文](fintech.zh-CN.md)
+**English** · [简体中文](fintech.zh-CN.md) · [繁體中文](fintech.zh-TW.md)
 
 [Filter and sort all 18 Fintech startups on BizPeel →](https://bizpeel.com/library?category=fintech&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech)
 
 | # | Startup | MRR | Growth | Builder | How it grows? |
 | --: | --- | --- | :-: | --- | --- |
-| 1 | <img src="https://bizpeel.com/media/64/641843d6621d590ef6ba5e0a8999dba45d822e82861622edcfab7deae1a96bcc.jpg" width="16" height="16" alt=""> [Khosmos](https://bizpeel.com/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | $10K–&#8288;30K | → | — | How does a tool with no free plan bring in users? → [See 7 growth plays](https://bizpeel.com/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
+| 1 | <img src="https://bizpeel.com/media/64/641843d6621d590ef6ba5e0a8999dba45d822e82861622edcfab7deae1a96bcc.jpg" width="16" height="16" alt=""> [Khosmos](https://bizpeel.com/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | $10K–&#8288;30K | ▲ | — | How does a tool with no free plan bring in users? → [See 7 growth plays](https://bizpeel.com/project/khosmos?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
 | 2 | <img src="https://bizpeel.com/media/ae/ae396063da67ee9c953fa5e8dbb863127f89c53a493d58c456e78c1150dd223c.png" width="16" height="16" alt=""> [AltIndex](https://bizpeel.com/project/altindex-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | $10K–&#8288;30K | → | [@\_quincyrm](https://x.com/_quincyrm) · 64 | Which pages reach Google’s top five? → [See 7 growth plays](https://bizpeel.com/project/altindex-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
 | 3 | <img src="https://bizpeel.com/media/e9/e9a7fc97fd6ee2336a645d056f6f4c59ea7d8e2cc2414be29cf814af1e42f8cc.png" width="16" height="16" alt=""> [Heron Copier](https://bizpeel.com/project/heron-copier?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | &lt;&nbsp;$10K | → | [@agazdev](https://x.com/agazdev) · 32 | Why did revenue turn? → [See 7 growth plays](https://bizpeel.com/project/heron-copier?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
 | 4 | <img src="https://bizpeel.com/media/18/1872ea9d4ebe6c252f98ee7dc00c23456cee3a088329169edb9d219f51608dd9.png" width="16" height="16" alt=""> [BreadSync](https://bizpeel.com/project/breadsync?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) | &lt;&nbsp;$10K | ▲▲ | [@breadsync](https://x.com/breadsync) · 47 | Why did trial users stall before strategy teaching was built into the app? → [See 4 growth plays](https://bizpeel.com/project/breadsync?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-fintech) |
@@ -29,4 +29,4 @@
 
 [How to read the table](../README.md#how-to-read-the-tables) · [All categories](../README.md#by-category)
 
-Data as of 2026-11-04. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).
+Data as of 2026-11-05. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).

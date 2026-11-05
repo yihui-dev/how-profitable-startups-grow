@@ -3,10 +3,10 @@
 // Values passed into these functions are already escaped for Markdown by
 // render.mjs, so the strings here may contain Markdown but never raw data.
 
-/** @typedef {'en' | 'zh-CN'} Lang */
+/** @typedef {'en' | 'zh-CN' | 'zh-TW'} Lang */
 
 /** @type {Lang[]} */
-export const LANGS = ['en', 'zh-CN'];
+export const LANGS = ['en', 'zh-CN', 'zh-TW'];
 
 const BAND_ORDER = ['lt10k', '10k-30k', '30k-50k', '50k-100k', 'gte100k'];
 
@@ -386,6 +386,178 @@ export const STRINGS = {
       howToRead: '怎么读这张表',
       footer: (dataAsOf) =>
         `数据截至 ${dataAsOf}。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。`,
+    },
+  },
+
+  'zh-TW': {
+    languageName: '繁體中文',
+    fileSuffix: '.zh-TW',
+    sitePrefix: '/zh',
+    title: 'How Profitable Startups Grow',
+    subtitle: '盈利創業公司是怎麼增長的',
+    tagline: (n, revenueColumns) =>
+      revenueColumns
+        ? `${n} 家創業公司的收入區間、30 天趨勢和背後的創始人，每家都附一份完整獲客增長報告，每週更新`
+        : `${n} 家創業公司背後的創始人和增長拆解，每家都附一份完整獲客增長報告，每週更新`,
+    badges: {
+      startups: '創業公司',
+      dataAsOf: '數據截至',
+      updated: '更新',
+      weekly: '每週',
+      unknownDate: '暫無',
+    },
+    intro: (revenueColumns, link) => [
+      revenueColumns
+        ? '每一行告訴你：這家公司賺多少（收入區間）、是否在增長、由誰在做，以及它是如何獲客增長的。'
+        : '每一行告訴你：這家公司由誰在做，以及它是如何獲客增長的。',
+      `一步步的增長打法、具體數字和證據，都在 BizPeel 上每家公司的完整報告裡——[可免費預覽](${link})。`,
+    ],
+    shortcutsLabel: "按商業模式與增長特徵篩選：",
+    shortcuts: (revenueColumns) => [
+      ...(revenueColumns
+        ? [
+            [
+              "🔥 低流量高變現",
+              "shortcut-low-traffic",
+              { minMrr: "10000", maxVisits: "10000", sort: "mrr" },
+            ],
+            [
+              "📈 30 天高增長",
+              "shortcut-high-growth",
+              { minGrowth: "20", sort: "mrr_growth" },
+            ],
+          ]
+        : []),
+      [
+        "🎯 免費增值（Freemium）",
+        "shortcut-freemium",
+        { billing: "freemium", ...(revenueColumns ? { sort: "mrr" } : {}) },
+      ],
+      [
+        "🏢 中小企業 B2B",
+        "shortcut-b2b",
+        { customer: "smb", ...(revenueColumns ? { sort: "mrr" } : {}) },
+      ],
+      [
+        "🛠️ 開發者工具與 API",
+        "shortcut-devtools",
+        { customer: "developers", ...(revenueColumns ? { sort: "mrr" } : {}) },
+      ],
+      [
+        "🌱 自籌盈利（Bootstrapped）",
+        "shortcut-bootstrapped",
+        { funding: "bootstrapped", ...(revenueColumns ? { sort: "mrr" } : {}) },
+      ],
+    ],
+    bottomCta: {
+      top: (n, link) =>
+        `> **這裡只展示了前 100 家。**[在 BizPeel 按賽道、收入區間、增長趨勢免費篩選全部 ${n} 家創業公司 →](${link})`,
+      topByName: (n, link) =>
+        `> **這裡只展示了前 100 家。**[在 BizPeel 按賽道與商業模式免費篩選全部 ${n} 家創業公司 →](${link})`,
+      fastest: (n, link) =>
+        `> **想看更多增長勢頭？**[在 BizPeel 按 30 天 MRR 漲幅查看全部 ${n} 家創業公司 →](${link})`,
+    },
+    contents: '目錄',
+    sections: {
+      top: '收入最高的 100 家',
+      topByName: '按名稱排列',
+      fastest: '增長最快',
+      recent: '最近收錄',
+      categories: '按分類',
+      howToRead: '怎麼讀這些表',
+      faq: '常見問題',
+      license: '許可',
+    },
+    filterAll: (n, sort) =>
+      ({
+        mrr: `在 BizPeel 上按 MRR 排序全部 ${n} 家創業公司 →`,
+        mrr_growth: `在 BizPeel 上按 MRR 增長排序全部 ${n} 家創業公司 →`,
+        recent: `在 BizPeel 上按收錄時間排序全部 ${n} 家創業公司 →`,
+      })[sort] ?? `在 BizPeel 上篩選、排序全部 ${n} 家創業公司 →`,
+    filterCategory: (n, category) =>
+      `在 BizPeel 上篩選、排序全部 ${n} 家「${category}」創業公司 →`,
+    fastestNote: '最近 30 天 MRR 增長 20% 以上的創業公司，按收入從高到低排列。',
+    fastestEmpty: '本次更新中，沒有創業公司在最近 30 天裡 MRR 增長 20% 以上。',
+    topByNameNote: '按名稱排列的前 100 家創業公司。',
+    topNote: (unbanded) =>
+      unbanded
+        ? '按 MRR 從高到低排列；沒有最新收入數據的公司按名稱排在後面，標為 —。'
+        : '按 MRR 從高到低排列。',
+    columns: {
+      rank: '#',
+      added: '收錄日期',
+      startup: '創業公司',
+      mrr: 'MRR',
+      growth: '增長',
+      category: '分類',
+      channels: '增長渠道',
+      builder: '創始人',
+      answers: '如何獲客增長？',
+      startups: '創業公司數',
+    },
+    plays: (n) => `查看 ${n} 個增長打法`,
+    readReport: '閱讀報告',
+    howToRead: {
+      columnsHead: ['列', '含義'],
+      columns: (revenueColumns) => [
+        ...(revenueColumns
+          ? [
+              [
+                'MRR',
+                '月經常性收入，整理自網上公開分享資料，按區間顯示',
+              ],
+              ['增長', '最近 30 天的 MRR 變化'],
+            ]
+          : []),
+        ['創始人', '創始人的 X 帳號；沒有創始人帳號時為官方帳號。粉絲數為約數'],
+        ['如何獲客增長？', '完整報告解答的核心獲客增長問題，以及拆解了多少個增長打法'],
+      ],
+      bandsTitle: '收入區間（每月 MRR）',
+      bandsHead: ['區間', '範圍'],
+      bands: {
+        lt10k: '低於 10,000 美元',
+        '10k-30k': '10,000–29,999 美元',
+        '30k-50k': '30,000–49,999 美元',
+        '50k-100k': '50,000–99,999 美元',
+        gte100k: '100,000 美元及以上',
+      },
+      growthTitle: '增長（最近 30 天的 MRR 變化）',
+      growthHead: ['標記', '變化'],
+      growth: {
+        surging: '增長 20% 及以上',
+        up: '增長 5% 到 20%',
+        flat: '−5% 到 +5% 之間',
+        down: '下降超過 5%',
+      },
+      unknown: '未知或數據已過期',
+    },
+    faq: (contactLink, revenueColumns) => [
+      [
+        '數據從哪裡來？',
+        `${revenueColumns ? '收入數據整理自網上公開分享資料，這裡只顯示區間。' : ''}創始人和增長問題來自 BizPeel 對網上公開分享資料的研究整理，完整報告裡每一項都註明了來源。`,
+      ],
+      [
+        '多久更新一次？',
+        '每週一更新。“數據截至”徽章顯示表中最新收入數據的日期。',
+      ],
+      [
+        '怎樣讓一家創業公司上榜？',
+        `BizPeel 上每家已發布報告的創業公司，都會在下一次每週更新時出現在這裡。想推薦一家公司，請[聯繫 BizPeel](${contactLink})。`,
+      ],
+      [
+        '為什麼沒有具體數字？',
+        '這些表是一張告訴你去哪裡看的地圖。具體的 MRR、增長率、流量和背後的證據都在 BizPeel 的報告裡，每個數字都標註了來源和日期。',
+      ],
+    ],
+    license: (homeLink) =>
+      `本倉庫的代碼採用 [MIT 許可證](LICENSE)。表格內容 © BizPeel，註明出處（[BizPeel](${homeLink})）即可連結或引用。`,
+    category: {
+      subtitle: (n, title) =>
+        `本分類下 ${n} 家創業公司，來自 ${title}，每週更新`,
+      back: '全部分類',
+      howToRead: '怎麼讀這張表',
+      footer: (dataAsOf) =>
+        `數據截至 ${dataAsOf}。表格內容 © BizPeel，註明出處即可連結或引用。代碼採用 [MIT 許可證](../LICENSE)。`,
     },
   },
 };

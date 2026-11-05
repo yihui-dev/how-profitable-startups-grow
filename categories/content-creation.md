@@ -2,7 +2,7 @@
 
 41 startups in this category, from [How Profitable Startups Grow](../README.md), updated weekly
 
-**English** · [简体中文](content-creation.zh-CN.md)
+**English** · [简体中文](content-creation.zh-CN.md) · [繁體中文](content-creation.zh-TW.md)
 
 [Filter and sort all 41 Content Creation startups on BizPeel →](https://bizpeel.com/library?category=content-creation&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-content-creation)
 
@@ -52,4 +52,4 @@
 
 [How to read the table](../README.md#how-to-read-the-tables) · [All categories](../README.md#by-category)
 
-Data as of 2026-11-04. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).
+Data as of 2026-11-05. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).

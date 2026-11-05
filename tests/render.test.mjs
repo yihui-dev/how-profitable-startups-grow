@@ -174,14 +174,19 @@ test('renders both READMEs and a file per category and language', () => {
   assert.deepEqual([...files.keys()].sort(), [
     'README.md',
     'README.zh-CN.md',
+    'README.zh-TW.md',
     'categories/ai-tools.md',
     'categories/ai-tools.zh-CN.md',
+    'categories/ai-tools.zh-TW.md',
     'categories/developer-tools.md',
     'categories/developer-tools.zh-CN.md',
+    'categories/developer-tools.zh-TW.md',
     'categories/marketing.md',
     'categories/marketing.zh-CN.md',
+    'categories/marketing.zh-TW.md',
     'categories/productivity.md',
     'categories/productivity.zh-CN.md',
+    'categories/productivity.zh-TW.md',
   ]);
   for (const content of files.values()) {
     assert.ok(content.endsWith('\n') && !content.endsWith('\n\n'));
@@ -370,7 +375,7 @@ test('category files hold the full table for that category without a category co
 test('report links carry the UTM parameters and Chinese pages link to /zh', () => {
   const files = render();
   for (const [path, content] of files) {
-    const zh = path.endsWith('.zh-CN.md');
+    const zh = path.endsWith('.zh-CN.md') || path.endsWith('.zh-TW.md');
     const reports = links(content).filter((u) => u.includes('/project/'));
     assert.ok(reports.length > 0, path);
     for (const href of reports) {
@@ -439,7 +444,7 @@ test('the README opens with the title, tagline, badges and contents', () => {
 });
 
 test('every contents entry points at a heading in the same file', () => {
-  for (const path of ['README.md', 'README.zh-CN.md']) {
+  for (const path of ['README.md', 'README.zh-CN.md', 'README.zh-TW.md']) {
     const content = render().get(path);
     const contents = content.slice(
       content.indexOf('\n## '),
@@ -783,7 +788,7 @@ test('update writes the files, then nothing when the export is unchanged', async
     GITHUB_OUTPUT: outputs,
   });
   assert.equal(first.code, 0, first.stdout);
-  assert.equal(readdirSync(join(out, 'categories')).length, 8);
+  assert.equal(readdirSync(join(out, 'categories')).length, 12);
   assert.equal(
     readFileSync(join(out, 'README.md'), 'utf8'),
     render().get('README.md')
@@ -798,7 +803,7 @@ test('update writes the files, then nothing when the export is unchanged', async
   });
   assert.equal(second.code, 0);
   assert.ok(!second.stdout.includes('Wrote'));
-  assert.match(second.stdout, /0 written, 0 removed, 10 unchanged/);
+  assert.match(second.stdout, /0 written, 0 removed, 15 unchanged/);
   assert.match(readFileSync(outputs, 'utf8'), /changed=false\n$/);
 });
 

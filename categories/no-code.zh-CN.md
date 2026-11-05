@@ -2,7 +2,7 @@
 
 本分类下 3 家创业公司，来自 [How Profitable Startups Grow](../README.zh-CN.md)，每周更新
 
-[English](no-code.md) · **简体中文**
+[English](no-code.md) · **简体中文** · [繁體中文](no-code.zh-TW.md)
 
 [在 BizPeel 上筛选、排序全部 3 家「无代码」创业公司 →](https://bizpeel.com/zh/library?category=no-code&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-no-code)
 
@@ -14,4 +14,4 @@
 
 [怎么读这张表](../README.zh-CN.md#怎么读这些表) · [全部分类](../README.zh-CN.md#按分类)
 
-数据截至 2026-11-04。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。
+数据截至 2026-11-05。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。

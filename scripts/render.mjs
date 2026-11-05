@@ -3,6 +3,7 @@
 // Nothing here reads the clock, the network or the disk, so the same export
 // always renders the same bytes and an unchanged week commits nothing.
 
+import { toTraditional } from './s2t.mjs';
 import { LANGS, MARKS, STRINGS } from './strings.mjs';
 
 export const DEFAULT_SITE = 'https://bizpeel.com';
@@ -201,7 +202,8 @@ function table(head, align, rows) {
 }
 
 function categoryLabel(ctx, category) {
-  return ctx.lang === 'en' ? category.en : category.zh;
+  if (ctx.lang === 'en') return category.en;
+  return ctx.lang === 'zh-TW' ? toTraditional(category.zh) : category.zh;
 }
 
 function startupCell(ctx, startup, href) {
@@ -213,7 +215,13 @@ function startupCell(ctx, startup, href) {
 
 function channelsCell(ctx, startup) {
   const names = startup.channels.map((channel) =>
-    escapeText(ctx.lang === 'en' ? channel.en : channel.zh)
+    escapeText(
+      ctx.lang === 'en'
+        ? channel.en
+        : ctx.lang === 'zh-TW'
+          ? toTraditional(channel.zh)
+          : channel.zh
+    )
   );
   const text = names.join(' + ');
   if (startup.productHunt) return text ? `${text} 🚀` : '🚀';
@@ -236,7 +244,11 @@ function answerCell(ctx, startup, href) {
   const target = link(action, href);
   if (!startup.question) return target;
   const question =
-    ctx.lang === 'en' ? startup.question.en : startup.question.zh;
+    ctx.lang === 'en'
+      ? startup.question.en
+      : ctx.lang === 'zh-TW'
+        ? toTraditional(startup.question.zh)
+        : startup.question.zh;
   return `${escapeText(question)} → ${target}`;
 }
 

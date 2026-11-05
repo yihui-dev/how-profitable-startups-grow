@@ -2,7 +2,7 @@
 
 2 startups in this category, from [How Profitable Startups Grow](../README.md), updated weekly
 
-**English** · [简体中文](news-magazines.zh-CN.md)
+**English** · [简体中文](news-magazines.zh-CN.md) · [繁體中文](news-magazines.zh-TW.md)
 
 [Filter and sort all 2 News &amp; Magazines startups on BizPeel →](https://bizpeel.com/library?category=news-magazines&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-news-magazines)
 
@@ -13,4 +13,4 @@
 
 [How to read the table](../README.md#how-to-read-the-tables) · [All categories](../README.md#by-category)
 
-Data as of 2026-11-04. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).
+Data as of 2026-11-05. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).

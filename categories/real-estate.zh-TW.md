@@ -1,0 +1,20 @@
+# 房地產
+
+本分類下 6 家創業公司，來自 [How Profitable Startups Grow](../README.zh-TW.md)，每週更新
+
+[English](real-estate.md) · [简体中文](real-estate.zh-CN.md) · **繁體中文**
+
+[在 BizPeel 上篩選、排序全部 6 家「房地產」創業公司 →](https://bizpeel.com/zh/library?category=real-estate&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate)
+
+| # | 創&#8288;業&#8288;公&#8288;司 | MRR | 增&#8288;長 | 創&#8288;始&#8288;人 | 如&#8288;何&#8288;獲&#8288;客&#8288;增&#8288;長？ |
+| --: | --- | --- | :-: | --- | --- |
+| 1 | <img src="https://bizpeel.com/media/91/914498999f6f3fe6af063d1070a1afd813aa946551885d63e8d2598b658ca896.png" width="16" height="16" alt=""> [Bali Villa Hub](https://bizpeel.com/zh/project/bali-villa-hub?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) | &lt;&nbsp;$10K | ▲ | [@balivillahub](https://x.com/balivillahub) · 0 | 房東上架不抽傭金，租客找房也不花錢，Bali Villa Hub 做了哪些事把兩邊都拉過來？ → [查看 8 個增長打法](https://bizpeel.com/zh/project/bali-villa-hub?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) |
+| 2 | <img src="https://bizpeel.com/media/a0/a04ed82fac8e9038eb532f792679ab77687352f23bedef559be300b203b03670.png" width="16" height="16" alt=""> [Subbasta](https://bizpeel.com/zh/project/subbasta?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) | &lt;&nbsp;$10K | ▲ | [@lucaarrigo\_](https://x.com/lucaarrigo_) · 310 | 創始人如何用自製口播廣告與職場社媒啟動首批付費訂户？ → [查看 3 個增長打法](https://bizpeel.com/zh/project/subbasta?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) |
+| 3 | <img src="https://bizpeel.com/media/42/429c9feed1169e8dcc32bc3311c1c1d49238a098abac4563e22fef63ca2ca770.png" width="16" height="16" alt=""> [Refined Listings](https://bizpeel.com/zh/project/refined-listings?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) | &lt;&nbsp;$10K | ▲▲ | — | 掛牌出售前後，收入發生了什麼？ → [查看 7 個增長打法](https://bizpeel.com/zh/project/refined-listings?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) |
+| 4 | <img src="https://bizpeel.com/media/e3/e37f7d097e693003a6f9bf23caf274c2fa1d36d1d7408678b299fa42910351d1.png" width="16" height="16" alt=""> [Nytfire Apps](https://bizpeel.com/zh/project/nytfire-apps?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) | &lt;&nbsp;$10K | ▼ | [@danielnytfire](https://x.com/danielnytfire) · 3.2K | Nytfire Apps 的 CRM 賣給水管工、教練和地產投資人，這些客户是從哪裡找到它的？ → [查看 7 個增長打法](https://bizpeel.com/zh/project/nytfire-apps?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) |
+| 5 | <img src="https://bizpeel.com/media/24/24b301d3b666b67dadcd908b0c7c5afb7bce0cb0045edcd8c671a65a7ea4c3d6.png" width="16" height="16" alt=""> [Immopix](https://bizpeel.com/zh/project/immopix?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) | &lt;&nbsp;$10K | → | [@marchendrx](https://x.com/marchendrx) · 5 | 你也想把 AI 修圖工具賣給某個行業的從業者，Immopix 的哪幾步可以先照做？ → [查看 6 個增長打法](https://bizpeel.com/zh/project/immopix?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) |
+| 6 | <img src="https://bizpeel.com/media/8a/8ac902eb6edb0c9c85ec8e14a5cd3e6443555f1f4afe281ad689c8c5219f483c.png" width="16" height="16" alt=""> [Vermieter1.de](https://bizpeel.com/zh/project/vermieter1-de?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) | — | — | — | 一套房永久免費，Vermieter1.de 做了哪 7 件事來拉人和收錢？ → [查看 7 個增長打法](https://bizpeel.com/zh/project/vermieter1-de?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-real-estate) |
+
+[怎麼讀這張表](../README.zh-TW.md#怎麼讀這些表) · [全部分類](../README.zh-TW.md#按分類)
+
+數據截至 2026-11-05。表格內容 © BizPeel，註明出處即可連結或引用。代碼採用 [MIT 許可證](../LICENSE)。

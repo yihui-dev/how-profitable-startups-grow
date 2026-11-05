@@ -2,7 +2,7 @@
 
 11 startups in this category, from [How Profitable Startups Grow](../README.md), updated weekly
 
-**English** · [简体中文](sales.zh-CN.md)
+**English** · [简体中文](sales.zh-CN.md) · [繁體中文](sales.zh-TW.md)
 
 [Filter and sort all 11 Sales startups on BizPeel →](https://bizpeel.com/library?category=sales&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-sales)
 
@@ -22,4 +22,4 @@
 
 [How to read the table](../README.md#how-to-read-the-tables) · [All categories](../README.md#by-category)
 
-Data as of 2026-11-04. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).
+Data as of 2026-11-05. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).

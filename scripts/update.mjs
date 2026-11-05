@@ -107,7 +107,7 @@ export function carriesFigure(text) {
   return false;
 }
 /** Files this script owns under categories/. */
-const CATEGORY_FILE = /^[a-z0-9][a-z0-9-]{0,63}(?:\.zh-CN)?\.md$/;
+const CATEGORY_FILE = /^[a-z0-9][a-z0-9-]{0,63}(?:\.zh-(?:CN|TW))?\.md$/;
 
 const TOP_KEYS = [
   'version',
