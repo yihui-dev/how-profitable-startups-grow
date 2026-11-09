@@ -1,10 +1,10 @@
 # 旅行
 
-本分类下 13 家创业公司，来自 [How Profitable Startups Grow](../README.zh-CN.md)，每周更新
+本分类下 14 家创业公司，来自 [How Profitable Startups Grow](../README.zh-CN.md)，每周更新
 
 [English](travel.md) · **简体中文** · [繁體中文](travel.zh-TW.md)
 
-[在 BizPeel 上筛选、排序全部 13 家「旅行」创业公司 →](https://bizpeel.com/zh/library?category=travel&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel)
+[在 BizPeel 上筛选、排序全部 14 家「旅行」创业公司 →](https://bizpeel.com/zh/library?category=travel&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel)
 
 | # | 创&#8288;业&#8288;公&#8288;司 | MRR | 增&#8288;长 | 创&#8288;始&#8288;人 | 如&#8288;何&#8288;获&#8288;客&#8288;增&#8288;长？ |
 | --: | --- | --- | :-: | --- | --- |
@@ -20,8 +20,9 @@
 | 10 | <img src="https://bizpeel.com/media/74/746e65ea64aa0b141f8d3bbffe4a3289687bcda03c30be849127408d0ce0ecbe.png" width="16" height="16" alt=""> [Reconnect](https://bizpeel.com/zh/project/low-tide-and-sunset-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) | — | — | [@thomasdespin](https://x.com/thomasdespin) · 580 | 一家开在印尼偏远小岛上的度假村，客人最先是在哪里看到它的？ → [查看 8 个增长打法](https://bizpeel.com/zh/project/low-tide-and-sunset-llc?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) |
 | 11 | <img src="https://bizpeel.com/media/17/177856468f837bf4f18089839f5f9f3f4e12e1fba76d762f2e284ee1835e310c.png" width="16" height="16" alt=""> [Redsim eSIM](https://bizpeel.com/zh/project/redsim-esim?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) | — | — | [@thegokhankinay](https://x.com/thegokhankinay) · 25 | 做跨境工具或旅行应用，Redsim 哪 8 条做法可以直接拿来参考？ → [查看 8 个增长打法](https://bizpeel.com/zh/project/redsim-esim?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) |
 | 12 | <img src="https://bizpeel.com/media/75/756dfe5389af4dadd99f13f702993b1db865042fbd639822177a1c2d7fe65345.png" width="16" height="16" alt=""> [Safeonward](https://bizpeel.com/zh/project/safeonward-onward-flight-ticket?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) | — | — | [@john\_mccain\_\_](https://x.com/john_mccain__) · 140 | 专门帮办签旅客出可验真 PNR 预订单，Safeonward 在首页、定价和社媒上各做了什么？ → [查看 8 个增长打法](https://bizpeel.com/zh/project/safeonward-onward-flight-ticket?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) |
-| 13 | <img src="https://bizpeel.com/media/75/758fcc07d6eccbed461e5f1cefbc064a1cdb94ee921af930ee850c3dd42ce59d.png" width="16" height="16" alt=""> [Voyasim](https://bizpeel.com/zh/project/voyasim?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) | — | — | [@voyasim](https://x.com/voyasim) · 5 | 做跨境工具、旅行服务或按目的地计费的产品，VoyaSIM 哪几步可以直接照做？ → [查看 8 个增长打法](https://bizpeel.com/zh/project/voyasim?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) |
+| 13 | <img src="https://bizpeel.com/media/ee/eedb651b2ee327f7a4bb3d44d95fccaea925765e51ba1819b75fcc4b3fe3c903.png" width="16" height="16" alt=""> [Triips](https://bizpeel.com/zh/project/triips-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) | — | — | [@omaruecos](https://x.com/omaruecos) · 1.7K | 三个动作各解决了什么问题？ → [查看 3 个增长打法](https://bizpeel.com/zh/project/triips-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) |
+| 14 | <img src="https://bizpeel.com/media/75/758fcc07d6eccbed461e5f1cefbc064a1cdb94ee921af930ee850c3dd42ce59d.png" width="16" height="16" alt=""> [Voyasim](https://bizpeel.com/zh/project/voyasim?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) | — | — | [@voyasim](https://x.com/voyasim) · 5 | 做跨境工具、旅行服务或按目的地计费的产品，VoyaSIM 哪几步可以直接照做？ → [查看 8 个增长打法](https://bizpeel.com/zh/project/voyasim?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-travel) |
 
 [怎么读这张表](../README.zh-CN.md#怎么读这些表) · [全部分类](../README.zh-CN.md#按分类)
 
-数据截至 2026-11-05。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。
+数据截至 2026-11-09。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。

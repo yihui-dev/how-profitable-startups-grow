@@ -1,10 +1,10 @@
 # 招聘与人力
 
-本分类下 4 家创业公司，来自 [How Profitable Startups Grow](../README.zh-CN.md)，每周更新
+本分类下 6 家创业公司，来自 [How Profitable Startups Grow](../README.zh-CN.md)，每周更新
 
 [English](recruiting.md) · **简体中文** · [繁體中文](recruiting.zh-TW.md)
 
-[在 BizPeel 上筛选、排序全部 4 家「招聘与人力」创业公司 →](https://bizpeel.com/zh/library?category=recruiting&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting)
+[在 BizPeel 上筛选、排序全部 6 家「招聘与人力」创业公司 →](https://bizpeel.com/zh/library?category=recruiting&sort=mrr&utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting)
 
 | # | 创&#8288;业&#8288;公&#8288;司 | MRR | 增&#8288;长 | 创&#8288;始&#8288;人 | 如&#8288;何&#8288;获&#8288;客&#8288;增&#8288;长？ |
 | --: | --- | --- | :-: | --- | --- |
@@ -12,7 +12,9 @@
 | 2 | <img src="https://bizpeel.com/media/89/89c949a67abe5f44987e314878c8f6513c8396d7098380087d9f35ec533d9648.png" width="16" height="16" alt=""> [ApplyAll](https://bizpeel.com/zh/project/applyall?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) | &lt;&nbsp;$10K | ▲▲ | [@talmahaj](https://x.com/talmahaj) · 2.7K | 流量大涨的那几个月，收入怎么样了？ → [查看 8 个增长打法](https://bizpeel.com/zh/project/applyall?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) |
 | 3 | <img src="https://bizpeel.com/media/e4/e46f623525d4fe59ff7f526dc2f3ba2aca7089b62f4f9fe98a0947b7b2baeb97.png" width="16" height="16" alt=""> [Jobhuntify.com](https://bizpeel.com/zh/project/jobhuntify-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) | &lt;&nbsp;$10K | → | [@kabuky](https://x.com/kabuky) · 19 | 哪些做法值得试？ → [查看 5 个增长打法](https://bizpeel.com/zh/project/jobhuntify-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) |
 | 4 | <img src="https://bizpeel.com/media/b0/b0f3152c6dea3f66cf659e764d8f6ade9386b536a882bc2b63a4422e87d65709.png" width="16" height="16" alt=""> [Caça Plantão](https://bizpeel.com/zh/project/cacaplantao?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) | &lt;&nbsp;$10K | ▲▲ | [@luisalbinati](https://x.com/luisalbinati) · 360 | 一个帮医生绕开 WhatsApp 群找值班的网站，首页、方案和创始人的 X 各做了什么？ → [查看 5 个增长打法](https://bizpeel.com/zh/project/cacaplantao?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) |
+| 5 | <img src="https://bizpeel.com/media/ae/ae22a6440bd647ae7cbffb19a9bae937fb6912e4e2deaf9b858f7fe970be97a1.png" width="16" height="16" alt=""> [Jobbie](https://bizpeel.com/zh/project/usejobbie-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) | — | — | [@i7solar](https://x.com/i7solar) · 8K | 哪些动作真的换来了用户与收入？ → [查看 3 个增长打法](https://bizpeel.com/zh/project/usejobbie-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) |
+| 6 | <img src="https://bizpeel.com/media/84/842e363338738b83cde0d7c7af10e472d4fdaeb259e094a4b438d6e67906a6d7.png" width="16" height="16" alt=""> [Tsenta](https://bizpeel.com/zh/project/tsenta-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) | — | — | [@pulkit\_gupta2](https://x.com/pulkit_gupta2) · 2.2K | [查看 3 个增长打法](https://bizpeel.com/zh/project/tsenta-com?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-recruiting) |
 
 [怎么读这张表](../README.zh-CN.md#怎么读这些表) · [全部分类](../README.zh-CN.md#按分类)
 
-数据截至 2026-11-05。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。
+数据截至 2026-11-09。表格内容 © BizPeel，注明出处即可链接或引用。代码采用 [MIT 许可证](../LICENSE)。

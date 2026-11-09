@@ -12,4 +12,4 @@
 
 [How to read the table](../README.md#how-to-read-the-tables) · [All categories](../README.md#by-category)
 
-Data as of 2026-11-05. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).
+Data as of 2026-11-09. Table content © BizPeel, free to link to or quote with attribution. Code under the [MIT License](../LICENSE).
