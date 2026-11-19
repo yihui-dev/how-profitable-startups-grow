@@ -107,7 +107,7 @@ function compareText(a, b) {
 // ---------------------------------------------------------------------------
 // Links
 
-function siteUrl(ctx, path, params) {
+function siteUrl(ctx, path, params = {}) {
   const url = new URL(path, ctx.base);
   if (url.origin !== ctx.base.origin) {
     throw new Error('A site path resolved outside the site');
@@ -118,11 +118,10 @@ function siteUrl(ctx, path, params) {
   return url.href;
 }
 
-function reportUrl(ctx, startup, section) {
-  return siteUrl(ctx, `${ctx.t.sitePrefix}${startup.reportPath}`, {
-    ...UTM,
-    utm_content: section,
-  });
+// Single-project links omit UTM params so crawlers do not index parameterized
+// duplicates of /project/<slug>; CTA links (/library, /, /contact) keep UTM.
+function reportUrl(ctx, startup) {
+  return siteUrl(ctx, `${ctx.t.sitePrefix}${startup.reportPath}`);
 }
 
 function libraryUrl(ctx, section, filters = {}) {
@@ -259,12 +258,11 @@ function answerCell(ctx, startup, href) {
  * @param {any} ctx
  * @param {any[]} startups
  * @param {{
- *   section: string,
  *   lead: 'rank' | 'added',
  *   categoryHref?: (key: string) => string,
  * }} options
  */
-function startupTable(ctx, startups, { section, lead, categoryHref }) {
+function startupTable(ctx, startups, { lead, categoryHref }) {
   const c = ctx.t.columns;
   const head = [lead === 'added' ? c.added : c.rank, c.startup];
   const align = [lead === 'added' ? 'left' : 'right', 'left'];
@@ -284,7 +282,7 @@ function startupTable(ctx, startups, { section, lead, categoryHref }) {
   }
 
   const rows = startups.map((startup, index) => {
-    const href = reportUrl(ctx, startup, section);
+    const href = reportUrl(ctx, startup);
     const cells = [
       lead === 'added' ? startup.addedAt : String(index + 1),
       startupCell(ctx, startup, href),
@@ -483,7 +481,6 @@ function renderReadme(ctx, groups) {
         : t.topByNameNote,
       filterLine(ctx, 'top-100', ctx.revenueColumns ? { sort: 'mrr' } : {}),
       startupTable(ctx, top, {
-        section: 'top-100',
         lead: 'rank',
         categoryHref,
       }),
@@ -501,7 +498,6 @@ function renderReadme(ctx, groups) {
             t.fastestNote,
             filterLine(ctx, 'fastest-growing', { sort: 'mrr_growth' }),
             startupTable(ctx, fastest, {
-              section: 'fastest-growing',
               lead: 'rank',
               categoryHref,
             }),
@@ -520,7 +516,6 @@ function renderReadme(ctx, groups) {
       body: [
         filterLine(ctx, 'recently-added', { sort: 'recent' }),
         startupTable(ctx, recent, {
-          section: 'recently-added',
           lead: 'added',
           categoryHref,
         }),
@@ -591,7 +586,7 @@ function renderCategory(ctx, group) {
         ...(ctx.revenueColumns ? { sort: 'mrr' } : {}),
       })
     ),
-    startupTable(ctx, group.startups, { section, lead: 'rank' }),
+    startupTable(ctx, group.startups, { lead: 'rank' }),
     [
       link(t.category.howToRead, `${readme}${anchor(t.sections.howToRead)}`),
       link(t.category.back, `${readme}${anchor(t.sections.categories)}`),

@@ -8,7 +8,7 @@
 
 | # | Startup | MRR | Growth | Builder | How it grows? |
 | --: | --- | --- | :-: | --- | --- |
-| 1 | <img src="https://bizpeel.com/media/7b/7bcba3065c01d1f26e9bd0857ae87ea3e3ee9b834c35ba135af6ca7b1c27c328.png" width="16" height="16" alt=""> [Megaesim.us](https://bizpeel.com/project/megaesim-us?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-iot-hardware) | — | — | — | Megaesim.us sells eSIMs wholesale. Where might resellers and travel agencies come across it? → [See 7 growth plays](https://bizpeel.com/project/megaesim-us?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-iot-hardware) |
+| 1 | <img src="https://bizpeel.com/media/7b/7bcba3065c01d1f26e9bd0857ae87ea3e3ee9b834c35ba135af6ca7b1c27c328.png" width="16" height="16" alt=""> [Megaesim.us](https://bizpeel.com/project/megaesim-us) | — | — | — | Megaesim.us sells eSIMs wholesale. Where might resellers and travel agencies come across it? → [See 7 growth plays](https://bizpeel.com/project/megaesim-us) |
 
 [How to read the table](../README.md#how-to-read-the-tables) · [All categories](../README.md#by-category)
 
