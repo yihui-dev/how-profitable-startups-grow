@@ -273,13 +273,13 @@ test('the top table keeps the export order with bands and growth marks', () => {
   const first = rows[0];
   assert.match(
     first[1],
-    /^<img src="https:\/\/bizpeel\.com\/media\/[^"]+" width="16" height="16" alt=""> \[Lumenforge\]\(https:\/\/bizpeel\.com\/project\/lumenforge\?/
+    /^<img src="https:\/\/bizpeel\.com\/media\/[^"]+" width="16" height="16" alt=""> \[Lumenforge\]\(https:\/\/bizpeel\.com\/project\/lumenforge\)$/
   );
   assert.equal(visible(first[4]), '[AI tools](categories/ai-tools.md)');
   assert.equal(first[5], '[@fixture\\_ana](https://x.com/fixture_ana) · 12K');
   assert.match(
     first[6],
-    /^How did .*\? → \[See 7 growth plays\]\(https:\/\/bizpeel\.com\/project\/lumenforge\?/
+    /^How did .*\? → \[See 7 growth plays\]\(https:\/\/bizpeel\.com\/project\/lumenforge\)$/
   );
 
   const byName = Object.fromEntries(
@@ -355,12 +355,18 @@ test('category files hold the full table for that category without a category co
   assert.equal(table.length - 2, 3);
   assert.ok(en.includes('[简体中文](developer-tools.zh-CN.md)'));
   assert.ok(en.includes('(../README.md#how-to-read-the-tables)'));
-  assert.ok(en.includes('category=developer-tools'));
+  const libraryLinks = links(en).filter((u) => u.includes('/library'));
+  assert.equal(libraryLinks.length, 1);
+  assert.equal(
+    new URL(libraryLinks[0]).searchParams.get('category'),
+    'developer-tools'
+  );
+  assert.equal(
+    new URL(libraryLinks[0]).searchParams.get('utm_content'),
+    'category-developer-tools'
+  );
   for (const url of links(en).filter((u) => u.includes('/project/'))) {
-    assert.equal(
-      new URL(url).searchParams.get('utm_content'),
-      'category-developer-tools'
-    );
+    assert.equal(new URL(url).search, '', url);
   }
 
   const zh = files.get('categories/developer-tools.zh-CN.md');
@@ -372,7 +378,7 @@ test('category files hold the full table for that category without a category co
   );
 });
 
-test('report links carry the UTM parameters and Chinese pages link to /zh', () => {
+test('report links are clean direct URLs, CTA links carry UTM and Chinese pages link to /zh', () => {
   const files = render();
   for (const [path, content] of files) {
     const zh = path.endsWith('.zh-CN.md') || path.endsWith('.zh-TW.md');
@@ -385,30 +391,45 @@ test('report links carry the UTM parameters and Chinese pages link to /zh', () =
         url.pathname,
         zh ? /^\/zh\/project\/[a-z0-9-]+$/ : /^\/project\/[a-z0-9-]+$/
       );
+      assert.equal(url.search, '', `${path} ${href}`);
+    }
+    const ctaLinks = links(content).filter((u) => {
+      if (!u.startsWith('https://bizpeel.com')) return false;
+      const { pathname } = new URL(u);
+      return !pathname.startsWith('/media/') && !pathname.includes('/project/');
+    });
+    assert.ok(ctaLinks.length > 0, path);
+    for (const href of ctaLinks) {
+      const url = new URL(href);
       for (const [key, value] of Object.entries(UTM)) {
         assert.equal(url.searchParams.get(key), value, `${path} ${href}`);
       }
-      assert.ok(url.searchParams.get('utm_content'));
-    }
-    for (const href of links(content).filter((u) =>
-      u.startsWith('https://bizpeel.com')
-    )) {
-      const url = new URL(href);
-      if (url.pathname.startsWith('/media/')) continue;
-      assert.equal(url.searchParams.get('utm_source'), 'github', href);
+      assert.ok(url.searchParams.get('utm_content'), `${path} ${href}`);
       assert.equal(url.pathname.startsWith('/zh'), zh, href);
     }
   }
   const readme = files.get('README.md');
-  const sections = new Set(
+  const ctaSections = new Set(
     links(readme)
-      .filter((u) => u.includes('/project/'))
+      .filter(
+        (u) => u.startsWith('https://bizpeel.com') && !u.includes('/project/')
+      )
       .map((u) => new URL(u).searchParams.get('utm_content'))
   );
-  assert.deepEqual(
-    sections,
-    new Set(['top-100', 'fastest-growing', 'recently-added'])
-  );
+  for (const expected of [
+    'badge',
+    'intro',
+    'top-100',
+    'top-100-bottom',
+    'fastest-growing',
+    'fastest-growing-bottom',
+    'recently-added',
+    'by-category',
+    'faq',
+    'license',
+  ]) {
+    assert.ok(ctaSections.has(expected), `missing CTA utm_content ${expected}`);
+  }
 });
 
 test('--site changes the base of every site link', () => {
@@ -416,7 +437,8 @@ test('--site changes the base of every site link', () => {
     site: 'https://staging.example.com/',
   }).get('README.md');
   assert.ok(!readme.includes('https://bizpeel.com'));
-  assert.ok(readme.includes('https://staging.example.com/project/lumenforge?'));
+  assert.ok(readme.includes('(https://staging.example.com/project/lumenforge)'));
+  assert.ok(readme.includes('https://staging.example.com/library?'));
   assert.ok(readme.includes('<img src="https://staging.example.com/media/'));
 });
 

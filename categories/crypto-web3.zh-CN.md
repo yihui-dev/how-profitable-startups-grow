@@ -8,7 +8,7 @@
 
 | # | 创&#8288;业&#8288;公&#8288;司 | MRR | 增&#8288;长 | 创&#8288;始&#8288;人 | 如&#8288;何&#8288;获&#8288;客&#8288;增&#8288;长？ |
 | --: | --- | --- | :-: | --- | --- |
-| 1 | <img src="https://bizpeel.com/media/ea/ea7957b918246509502f833d076bdee8ba8097c39d1b1097c6e12791792bf6c3.png" width="16" height="16" alt=""> [One Mint](https://bizpeel.com/zh/project/one-mint?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-crypto-web3) | — | — | [@OneMintNFT](https://x.com/OneMintNFT) · 6.3K | 热潮里它靠什么找到客户？ → [查看 7 个增长打法](https://bizpeel.com/zh/project/one-mint?utm_source=github&utm_medium=readme&utm_campaign=how-profitable-startups-grow&utm_content=category-crypto-web3) |
+| 1 | <img src="https://bizpeel.com/media/ea/ea7957b918246509502f833d076bdee8ba8097c39d1b1097c6e12791792bf6c3.png" width="16" height="16" alt=""> [One Mint](https://bizpeel.com/zh/project/one-mint) | — | — | [@OneMintNFT](https://x.com/OneMintNFT) · 6.3K | 热潮里它靠什么找到客户？ → [查看 7 个增长打法](https://bizpeel.com/zh/project/one-mint) |
 
 [怎么读这张表](../README.zh-CN.md#怎么读这些表) · [全部分类](../README.zh-CN.md#按分类)
 
